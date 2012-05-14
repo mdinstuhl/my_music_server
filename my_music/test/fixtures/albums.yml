@@ -1,13 +1,13 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
-one:
-  title: MyString
-  artist: MyString
-  released: 2012-05-13
-  value: 
+Rush:
+  title: Rush
+  artist: Rush
+  released: 1974-03-01
+  value: 24.99
 
-two:
-  title: MyString
-  artist: MyString
-  released: 2012-05-13
-  value: 
+Fly_By_Night:
+  title: Fly By Night
+  artist: Rush
+  released: 1975-02-15
+  value: 32.50

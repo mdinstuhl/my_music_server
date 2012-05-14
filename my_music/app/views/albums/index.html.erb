@@ -1,4 +1,4 @@
-<h1>Listing albums</h1>
+<h1>My Albums</h1>
 
 <table>
   <tr>
@@ -6,7 +6,6 @@
     <th>Artist</th>
     <th>Released</th>
     <th>Value</th>
-    <th></th>
     <th></th>
     <th></th>
   </tr>
@@ -19,7 +18,6 @@
     <td><%= album.value %></td>
     <td><%= link_to 'Show', album %></td>
     <td><%= link_to 'Edit', edit_album_path(album) %></td>
-    <td><%= link_to 'Destroy', album, :confirm => 'Are you sure?', :method => :delete %></td>
   </tr>
 <% end %>
 </table>

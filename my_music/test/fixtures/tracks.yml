@@ -1,9 +1,46 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
-one:
-  title: MyString
-  length: 9.99
+finding_my_way:
+  title: Finding My Way
+  length: 5.04
+  album: Rush
 
-two:
-  title: MyString
-  length: 9.99
+need_some_love:
+  title: Need Some Love
+  length: 2.18
+  album: Rush
+
+take_a_friend:
+  title: Take A Friend
+  length: 4.24
+  album: Rush
+
+here_again:
+  title: Here Again
+  length: 7.37
+  album: Rush
+
+what_youre_doing:
+  title: What You're Doing
+  length: 4.22
+  album: Rush
+
+in_the_mood:
+  title: What You're Doing
+  length: 3.33
+  album: Rush
+
+before_and_after:
+  title: Before And After
+  length: 5.34
+  album: Rush
+
+working_man:
+  title: Working Man
+  length: 7.11
+  album: Rush
+
+anthem:
+  title: Anthem
+  length: 4.36
+  album: Fly_By_Night

@@ -20,6 +20,12 @@
   <%= @album.value %>
 </p>
 
+<p>
+  <b>Tracks:</b><br />
+  <% @album.tracks.each do |track| %>
+    <%= link_to track.title, track %><br />
+  <% end %>
+</p>
 
 <%= link_to 'Edit', edit_album_path(@album) %> |
 <%= link_to 'Back', albums_path %>
